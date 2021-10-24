@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { COLORS } from '../../theme';
 
 export const styles = StyleSheet.create({
     container: {
@@ -8,5 +9,13 @@ export const styles = StyleSheet.create({
     content: {
         paddingTop: 135,
         paddingBottom: 184,
+    },
+    filter: {
+        flexDirection: 'row',
+        justifyContent: 'flex-end',
+        paddingBottom: 20,
+    },
+    filterDivider: {
+        color: COLORS.WHITE,
     }
 });
